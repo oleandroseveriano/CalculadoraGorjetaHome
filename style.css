@@ -1,53 +1,15 @@
-body{
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('https://example.com/background.jpg'); /* Adicione uma URL válida de imagem */
-    background-size: cover;
-    background-position: center;
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
 h1 {
-    font-size: 2em;
-    color: #333;
+    color: blue;
 }
 
-h3 {
-    font-size: 1.2em;
-    color: #666;
+p {
+    font-size: 18px;
 }
 
 a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
+    color: red;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
 }
 
 a:hover {
-    background-color: #0056b3;
-}
-
-@media (max-width: 600px) {
-    .container {
-        width: 90%;
-    }
-}
+    text-decoration: underline;
